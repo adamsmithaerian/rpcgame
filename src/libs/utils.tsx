@@ -4,7 +4,7 @@ export const getRandomShape = (): Shape =>
   Math.floor(Math.random() * Math.floor(2));
 
 export const calculateRPSResult = (user: Shape, computer: Shape): Result => {
-  const resultGrid: Array<Result> = [
+  const resultGrid: Result[] = [
     Result.Tie,
     Result.Win,
     Result.Lose,

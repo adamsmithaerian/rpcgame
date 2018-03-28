@@ -10,6 +10,6 @@ export enum Result {
   Tie
 }
 
-export const shapeNames: Array<String> = ['Rock', 'Paper', 'Scissors'];
+export const shapeNames: string[] = ['Rock', 'Paper', 'Scissors'];
 
-export const resultNames: Array<String> = ['Win', 'Lose', 'Tie'];
+export const resultNames: string[] = ['Win', 'Lose', 'Tie'];
