@@ -11,18 +11,14 @@ class ShapeSelect extends React.Component<SelectProps, any> {
     return (
       <div className="shape-select">
         <select
-          onChange={(e: any) => this.props.onChange(parseInt(e.target.value, 10))}
+          onChange={(e: any) =>
+            this.props.onChange(parseInt(e.target.value, 10))
+          }
           value={this.props.value}
         >
-          <option value={Shape.Rock}>
-            {shapeNames[Shape.Rock]}
-          </option>
-          <option value={Shape.Paper}>
-            {shapeNames[Shape.Paper]}
-          </option>
-          <option value={Shape.Scissors}>
-            {shapeNames[Shape.Scissors]}
-          </option>
+          <option value={Shape.Rock}>{shapeNames[Shape.Rock]}</option>
+          <option value={Shape.Paper}>{shapeNames[Shape.Paper]}</option>
+          <option value={Shape.Scissors}>{shapeNames[Shape.Scissors]}</option>
         </select>
       </div>
     );

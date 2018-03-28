@@ -12,9 +12,7 @@ class ShapeSelectForm extends React.Component<ShapeSelectProps, any> {
   render() {
     return (
       <form onSubmit={this.props.onSubmitShape}>
-        <label>
-          Please select your shape
-        </label>
+        <label>Please select your shape</label>
 
         <ShapeSelect
           onChange={this.props.onSelectShape}

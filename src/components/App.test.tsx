@@ -8,7 +8,7 @@ it('renders without crashing', () => {
   ReactDOM.render(
     <App
       computer={{
-        selectedShape: Shape.Rock        
+        selectedShape: Shape.Rock
       }}
       user={{
         selectedShape: Shape.Rock

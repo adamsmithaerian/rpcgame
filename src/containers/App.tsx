@@ -1,9 +1,5 @@
 import { connect } from 'react-redux';
-import {
-  setSelectShape,
-  submitShape,
-  resetGame
-} from '../actions';
+import { setSelectShape, submitShape, resetGame } from '../actions';
 import { Shape } from '../consts/types';
 
 import App from '../components/App';
@@ -21,7 +17,4 @@ const mapDispatchToProps = (dispatch: any) => ({
   onResetGame: () => dispatch(resetGame())
 });
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(App);
+export default connect(mapStateToProps, mapDispatchToProps)(App);

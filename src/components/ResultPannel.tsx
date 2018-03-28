@@ -1,11 +1,6 @@
 import * as React from 'react';
 
-import {
-  Result,
-  Shape,
-  resultNames,
-  shapeNames 
-} from '../consts/types';
+import { Result, Shape, resultNames, shapeNames } from '../consts/types';
 
 interface ResultPannelProps {
   result: Result;

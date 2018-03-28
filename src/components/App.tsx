@@ -1,7 +1,7 @@
 import * as React from 'react';
-import ShapeSelectForm from './ShapeSelectForm';
 import ResultPannel from './ResultPannel';
-import { Shape, Result } from '../consts/types';
+import ShapeSelectForm from './ShapeSelectForm';
+import { Result, Shape } from '../consts/types';
 
 import './App.css';
 
@@ -27,7 +27,7 @@ class App extends React.Component<AppProps, any> {
           onSelectShape={this.props.onSelectShape}
           onSubmitShape={this.props.onSubmitShape}
           selectedShape={this.props.user.selectedShape}
-        />        
+        />
       );
     } else {
       return (
@@ -44,13 +44,9 @@ class App extends React.Component<AppProps, any> {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">
-            Rock Paper Scissors
-          </h1>
+          <h1 className="App-title">Rock Paper Scissors</h1>
         </header>
-        <div className="App-intro">
-          {this.renderContent()}
-        </div>
+        <div className="App-intro">{this.renderContent()}</div>
       </div>
     );
   }
