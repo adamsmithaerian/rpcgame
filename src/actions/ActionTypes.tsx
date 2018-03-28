@@ -1,0 +1,4 @@
+export const SET_SELECTED_SHAPE = 'SET_SELECTED_SHAPE';
+export const SET_GENERATED_SHAPE = 'SET_GENERATED_SHAPE';
+export const SET_RESULT = 'SET_RESULT';
+export const RESET_GAME = 'RESET_GAME';
