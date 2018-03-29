@@ -1,6 +1,8 @@
 import * as React from 'react';
 import { Shape, shapeNames } from '../consts/types';
 
+import './ShapeSelectForm.css';
+
 interface SelectProps {
   onChange: (value: Shape) => void;
   value: Shape;

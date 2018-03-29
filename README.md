@@ -1,14 +1,16 @@
-RUN DEV
+# Run dev
 
 `npm install`
 `npm start`
 
-TODO
+# Todo
 
-Add prettier to fix tab/spaces Inconsistencies 
+* Add prettier to fix tab/spaces Inconsistencies 
 
-Get immutable.js or seamless-immutable.js hooked up to the reducers (at the moment just using shallow clones).
+* Get immutable.js or seamless-immutable.js hooked up to the reducers (at the moment just using shallow clones).
 
-Replace left over 'any' types to explicit typings
+* Replace left over 'any' types to explicit typings
 
-Write test for App.js Container
+* Write test for App.js Container
+
+* Create unit tests that are more intigration focused to help TDD
