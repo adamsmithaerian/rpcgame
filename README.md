@@ -5,9 +5,13 @@ Prerequisite: node/npm
 `npm install`
 `npm start`
 
+# Run Tests
+
+`npm test`
+
 # Todo
 
-* Add prettier to fix tab/spaces Inconsistencies 
+* ~~Add prettier to fix tab/spaces Inconsistencies~~
 
 * Get immutable.js or seamless-immutable.js hooked up to the reducers (at the moment just using shallow clones)
 
