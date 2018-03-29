@@ -1,5 +1,7 @@
 # Run dev
 
+Prerequisite: node/npm
+
 `npm install`
 `npm start`
 
