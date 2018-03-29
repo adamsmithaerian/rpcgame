@@ -10,6 +10,9 @@
     "redux": "3.7.2",
     "redux-thunk": "2.2.0"
   },
+  "engines": {
+    "node" : "~6.4.0"
+  },  
   "scripts": {
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
