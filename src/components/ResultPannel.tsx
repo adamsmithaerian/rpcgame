@@ -16,7 +16,7 @@ class ResultPannel extends React.Component<ResultPannelProps, any> {
         <div className="text">You chose {shapeNames[this.props.userShape]}</div>
         <div className="text">Comptuer chose {shapeNames[this.props.computerShape]}</div>
         <div className="text">You {resultNames[this.props.result]}</div>
-        <button onClick={this.props.onResetGame}>Play Again</button>
+        <button type="button" onClick={this.props.onResetGame}>Play Again</button>
       </div>
     );
   }

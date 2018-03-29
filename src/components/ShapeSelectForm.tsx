@@ -11,7 +11,10 @@ interface ShapeSelectProps {
 class ShapeSelectForm extends React.Component<ShapeSelectProps, any> {
   render() {
     return (
-      <form onSubmit={this.props.onSubmitShape}>
+      <form onSubmit={(e: any) => {
+        e.preventDefault();
+        this.props.onSubmitShape();
+      }}>
         <label className="text">Please select your shape</label>
 
         <ShapeSelect
