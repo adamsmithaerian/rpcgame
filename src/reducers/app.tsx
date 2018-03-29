@@ -4,7 +4,7 @@ import { Result } from '../consts/types';
 export interface State {
   readonly result: Result;
   readonly showResult: boolean;
-};
+}
 
 const initialState = {
   result: Result.Win,

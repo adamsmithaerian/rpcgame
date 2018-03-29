@@ -1,6 +1,6 @@
 import { Shape, Result } from '../consts/types';
 import {
-  SET_GENERATED_SHAPE,  
+  SET_GENERATED_SHAPE,
   SET_SELECTED_SHAPE,
   SET_RESULT
 } from './ActionTypes';

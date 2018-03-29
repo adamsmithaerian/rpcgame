@@ -3,7 +3,7 @@ import { Shape } from '../consts/types';
 
 export interface State {
   readonly selectedShape: Shape;
-};
+}
 
 const initialState = {
   selectedShape: Shape.Rock

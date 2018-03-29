@@ -27,7 +27,7 @@ export const resetGame = (): any => ({
   type: RESET_GAME
 });
 
-export const submitShape = () => (dispatch: any, getState: Function) => {
+export const submitShape = () => (dispatch: any, getState: () => any) => {
   const computer: Shape = getRandomShape();
   dispatch(setGeneratedShape(computer));
 

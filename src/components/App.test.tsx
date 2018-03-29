@@ -5,6 +5,7 @@ import { Shape, Result } from '../consts/types';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
+  
   ReactDOM.render(
     <App
       computer={{

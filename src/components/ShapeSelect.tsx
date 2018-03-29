@@ -9,7 +9,7 @@ interface SelectProps {
 class ShapeSelect extends React.Component<SelectProps, any> {
   render() {
     return (
-      <div className="shape-select">
+      <div className="Shape-select">
         <select
           onChange={(e: any) =>
             this.props.onChange(parseInt(e.target.value, 10))
