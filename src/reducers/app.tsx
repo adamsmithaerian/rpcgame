@@ -6,7 +6,7 @@ export interface State {
   readonly showResult: boolean;
 }
 
-const initialState = {
+const initialState: State = {
   result: Result.Win,
   showResult: false
 };

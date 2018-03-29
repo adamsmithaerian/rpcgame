@@ -5,7 +5,7 @@ export interface State {
   readonly selectedShape: Shape;
 }
 
-const initialState = {
+const initialState: State = {
   selectedShape: Shape.Rock
 };
 

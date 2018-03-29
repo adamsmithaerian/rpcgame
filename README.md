@@ -21,4 +21,6 @@ Prerequisite: node/npm
 
 * Create jest 'snapshots' for react components
 
+* Test *every* possible combination of RPC rather than a sample of win, lose, tie
+
 * Create unit tests that are more intigration focused to help TDD
