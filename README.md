@@ -15,7 +15,7 @@ Prerequisite: node/npm
 
 * Get immutable.js or seamless-immutable.js hooked up to the reducers (at the moment just using shallow clones)
 
-* Replace left over 'any' types to explicit typings
+* Replace left over 'any' types to explicit typings and suppress/fix typing warnings
 
 * Write test for App.js Container
 
