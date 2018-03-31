@@ -19,7 +19,7 @@ Prerequisite: node/npm
 
 * Write test for App.js Container
 
-* Create jest 'snapshots' for react components
+* ~~Create jest 'snapshots' for react components~~
 
 * Test *every* possible combination of RPC rather than a sample of win, lose, tie
 

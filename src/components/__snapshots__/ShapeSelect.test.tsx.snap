@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResultPannel component should match snapshot 1`] = `
+<div
+  className="Shape-select"
+>
+  <select
+    onChange={[Function]}
+    value={0}
+  >
+    <option
+      value={0}
+    >
+      Rock
+    </option>
+    <option
+      value={1}
+    >
+      Paper
+    </option>
+    <option
+      value={2}
+    >
+      Scissors
+    </option>
+  </select>
+</div>
+`;
+
+exports[`Shape Select component should match snapshot 1`] = `
+<div
+  className="Shape-select"
+>
+  <select
+    onChange={[Function]}
+    value={0}
+  >
+    <option
+      value={0}
+    >
+      Rock
+    </option>
+    <option
+      value={1}
+    >
+      Paper
+    </option>
+    <option
+      value={2}
+    >
+      Scissors
+    </option>
+  </select>
+</div>
+`;
+
+exports[`ShapeSelect component should match snapshot 1`] = `
+<div
+  className="Shape-select"
+>
+  <select
+    onChange={[Function]}
+    value={0}
+  >
+    <option
+      value={0}
+    >
+      Rock
+    </option>
+    <option
+      value={1}
+    >
+      Paper
+    </option>
+    <option
+      value={2}
+    >
+      Scissors
+    </option>
+  </select>
+</div>
+`;

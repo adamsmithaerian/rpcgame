@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResultPannel component should match snapshot 1`] = `
+<div
+  className="Result-pannel"
+>
+  <div
+    className="text"
+  >
+    You chose 
+    Paper
+  </div>
+  <div
+    className="text"
+  >
+    Comptuer chose 
+    Rock
+  </div>
+  <div
+    className="text"
+  >
+    You 
+    Win
+  </div>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Play Again
+  </button>
+</div>
+`;

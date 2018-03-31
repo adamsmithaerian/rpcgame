@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component should match snapshot 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <h1
+      className="App-title"
+    >
+      Rock Paper Scissors
+    </h1>
+  </header>
+  <div
+    className="App-intro"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <label
+        className="text"
+      >
+        Please select your shape
+      </label>
+      <div
+        className="Shape-select"
+      >
+        <select
+          onChange={[Function]}
+          value={0}
+        >
+          <option
+            value={0}
+          >
+            Rock
+          </option>
+          <option
+            value={1}
+          >
+            Paper
+          </option>
+          <option
+            value={2}
+          >
+            Scissors
+          </option>
+        </select>
+      </div>
+      <input
+        type="submit"
+        value="Submit"
+      />
+    </form>
+  </div>
+</div>
+`;
+
+exports[`App component should matche snapshot 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <h1
+      className="App-title"
+    >
+      Rock Paper Scissors
+    </h1>
+  </header>
+  <div
+    className="App-intro"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <label
+        className="text"
+      >
+        Please select your shape
+      </label>
+      <div
+        className="Shape-select"
+      >
+        <select
+          onChange={[Function]}
+          value={0}
+        >
+          <option
+            value={0}
+          >
+            Rock
+          </option>
+          <option
+            value={1}
+          >
+            Paper
+          </option>
+          <option
+            value={2}
+          >
+            Scissors
+          </option>
+        </select>
+      </div>
+      <input
+        type="submit"
+        value="Submit"
+      />
+    </form>
+  </div>
+</div>
+`;
+
+exports[`App component should matches snapshot 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <h1
+      className="App-title"
+    >
+      Rock Paper Scissors
+    </h1>
+  </header>
+  <div
+    className="App-intro"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <label
+        className="text"
+      >
+        Please select your shape
+      </label>
+      <div
+        className="Shape-select"
+      >
+        <select
+          onChange={[Function]}
+          value={0}
+        >
+          <option
+            value={0}
+          >
+            Rock
+          </option>
+          <option
+            value={1}
+          >
+            Paper
+          </option>
+          <option
+            value={2}
+          >
+            Scissors
+          </option>
+        </select>
+      </div>
+      <input
+        type="submit"
+        value="Submit"
+      />
+    </form>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <h1
+      className="App-title"
+    >
+      Rock Paper Scissors
+    </h1>
+  </header>
+  <div
+    className="App-intro"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <label
+        className="text"
+      >
+        Please select your shape
+      </label>
+      <div
+        className="Shape-select"
+      >
+        <select
+          onChange={[Function]}
+          value={0}
+        >
+          <option
+            value={0}
+          >
+            Rock
+          </option>
+          <option
+            value={1}
+          >
+            Paper
+          </option>
+          <option
+            value={2}
+          >
+            Scissors
+          </option>
+        </select>
+      </div>
+      <input
+        type="submit"
+        value="Submit"
+      />
+    </form>
+  </div>
+</div>
+`;
