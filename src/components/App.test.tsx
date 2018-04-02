@@ -1,6 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import * as renderer from 'react-test-renderer';
+
 import App from './App';
 import { Shape, Result } from '../consts/types';
 
