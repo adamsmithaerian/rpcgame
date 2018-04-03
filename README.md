@@ -24,3 +24,5 @@ Prerequisite: node/npm
 * Test *every* possible combination of RPC rather than a sample of win, lose, tie
 
 * Create unit tests that are more intigration focused to help TDD
+
+* Rename repo to rpsgame rather than rpcgame
